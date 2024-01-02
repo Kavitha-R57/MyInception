@@ -1,4 +1,25 @@
 .contactpg{
     background: rgb(82, 143, 214);
     color: antiquewhite;
+    font-size:35px;
+}
+
+
+.user, .user2{
+    padding: 3%;
+    margin: 3%;
+    border: 3%;
+}
+.cphone{
+    margin: 0px, -15px;
+}
+
+
+.services_check{
+    margin: 0px 25px;
+    padding: 0px 0px 15px;
+    display: grid;
+    align-content: center;
+    justify-content: space-between;
+
 }
