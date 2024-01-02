@@ -1,17 +1,28 @@
 import React from 'react'
+import '../contactus/contact.css'
+function Contact() {
 
-function contact() {
+
   return (
-    <div>
+    <div className='contactpg'>
       
+    <h1> Let's Have A Coffee </h1>
+    <div className='user'> 
+   
+    <input type="text" name="username" class="" placeholder="Name *"/>
+    <input type="tel" name="user_contact" id="user_contact" class="cphone" placeholder="Phone Number *"/></div>
 
-      
 
-    </div>
-  )
+
+
+
+
+
+      </div>
+  );
 }
 
-export default contact;
+export default Contact;
 
 
 

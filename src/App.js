@@ -5,6 +5,7 @@ import Animate from './launch2.0/Animation/Animate';
 import Services from '../src/launch2.0/services/Services'
 import Serv from '../src/launch2.0/services/Serv'
 import Ourprocess from './launch2.0/services/Ourprocess';
+import Contact from '../src/launch2.0/contactus/Contact'
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Services/>  
       <Serv />
       <Ourprocess/>
+      <Contact/>
   
       </div>
     

@@ -86,10 +86,10 @@
 }
 .icon2{
     display: flex;
-    padding-left: 250px;
+    padding-left: 200px;
     justify-content: center;
     text-align: center;
-    width: 80px;
+    width: 100px;
     height: 100px;
     margin-bottom: 25px;
     border-radius: 50%;
@@ -100,4 +100,5 @@
 }
 .headingg{
     color: #fff;  
+    text-align: center;
 }
