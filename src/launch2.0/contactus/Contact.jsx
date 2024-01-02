@@ -1,8 +1,11 @@
 import React, { useState } from 'react'
 import '../contactus/contact.css'
 import { ImFacebook2 } from "react-icons/im";
-
-
+import { SlSocialTwitter } from "react-icons/sl";
+import { RxInstagramLogo } from "react-icons/rx";
+import { AiOutlineYoutube } from "react-icons/ai";
+import { FaLinkedinIn } from "react-icons/fa";
+import { FaGooglePlusG } from "react-icons/fa";
 
 
 function Contact() {
@@ -71,9 +74,21 @@ function Contact() {
           <h4> Head Office</h4>
           <p>
              No # 4/ 18 Shiny Tech park,<br/>Poonamallee Road, Ekkattuthangal<br/> Chennai - 600032
-          </p>
+         
           <h5> Follows: </h5>
-          <ImFacebook2 />
+          <ul className='list-icon'>
+            <li><a href='https://www.facebook.com/'>  <ImFacebook2 /> </a> </li>
+            <li><a href='https://twitter.com/'>  <SlSocialTwitter /> </a> </li>
+            <li><a href='https://Youtube.com/'> <AiOutlineYoutube /></a> </li>
+            <li><a href= 'https://Linkedin.com/'><FaLinkedinIn />  </a> </li>
+            <li><a href='https://instagram.com/'>  <RxInstagramLogo /> </a></li>
+            <li><a href='https://Google.com/'>  <FaGooglePlusG /> </a></li>
+          </ul> </p>
+
+          
+         
+         
+         
           
           
       </div>

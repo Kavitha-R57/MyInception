@@ -2,6 +2,7 @@
     background: rgb(82, 143, 214);
     color: antiquewhite;
     font-size:35px;
+    display: flex;
 }
 
 
@@ -22,4 +23,16 @@
     align-content: center;
     justify-content: space-between;
 
+}
+
+.list-icon{
+    display: flex;
+    width: 15px;
+    padding: 15px;
+    margin: 2px;
+    list-style-type: none;
+}
+
+.map{
+    
 }
