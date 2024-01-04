@@ -28,21 +28,24 @@ function Contact() {
       
       <div className='contact'>        
          <h4> Let's Have A Coffee </h4>
-            <div className='user'>    
-                <input type="text" name="username" class="" placeholder="Name *"/>
-                <input type="tel" name="user_contact" class="cphone" placeholder="Phone Number *"/>            
-                <input type="text" id='email' name="email" value={email} onChange={handleEmailChange} class="" placeholder="Email Id *"/>
+            <div className='user'>   
+                <div className='C'>
+                <input type="text" name="username" class="uname" placeholder="Name *"/>
+                <input type="tel" name="user_contact" class="cphone" placeholder="Phone Number *"/> </div>  <br/>
+                <div  className='row2'>          
+                <input type="text" id='email' class="email" name="email" value={email} onChange={handleEmailChange} placeholder="Email Id *"/>
                 {
                   !isValidEmail && <p style={{color: 'red'}}>Please enter a valid email address.</p>
                 }
-                <input type="text" name="company" class="company" placeholder="Company Name *"/>  
+                <input type="text" name="company" class="company" placeholder="Company Name *"/>  </div>
             </div>
 
               <div> 
                 <label> Services * </label>
               </div>
 
-              <div className='services_check'>
+              <div className='services_check'>  
+              <div>
                     <label class="checkbox-inline">
                       <input type="checkbox" class="check"/>Website Designing &amp; Development
                     </label>
@@ -54,7 +57,8 @@ function Contact() {
                     </label>
                     <label class="checkbox-inline">
                        <input type="checkbox" name="services[]" class="check"/>Online Reputation Management  
-                     </label>                
+                     </label>   </div>     
+                     <div className= ''>      
                      <label class="checkbox-inline">
                         <input type="checkbox" name="services[]" class="check"/>Digital Brand Development
                      </label>
@@ -66,24 +70,25 @@ function Contact() {
                      </label>                      
                       <label class="checkbox-inline">
                           <input type="checkbox" name="services[]" class="check"/>Identity Designing
-                      </label>
+                      </label></div>  
                   </div> 
       </div>
 
       <div className='map'>
           <h4> Head Office</h4>
           <p>
-             No # 4/ 18 Shiny Tech park,<br/>Poonamallee Road, Ekkattuthangal<br/> Chennai - 600032
-         
-          <h5> Follows: </h5>
-          <ul className='list-icon'>
-            <li><a href='https://www.facebook.com/'>  <ImFacebook2 /> </a> </li>
-            <li><a href='https://twitter.com/'>  <SlSocialTwitter /> </a> </li>
-            <li><a href='https://Youtube.com/'> <AiOutlineYoutube /></a> </li>
-            <li><a href= 'https://Linkedin.com/'><FaLinkedinIn />  </a> </li>
-            <li><a href='https://instagram.com/'>  <RxInstagramLogo /> </a></li>
-            <li><a href='https://Google.com/'>  <FaGooglePlusG /> </a></li>
-          </ul> </p>
+             No # 4/ 18 Shiny Tech park,<br/>Poonamallee Road, Ekkattuthangal<br/> Chennai - 600032.</p>
+                           
+              <h5> Follows: </h5>
+              <div className='list' >  
+              <ul className='list-icon'>
+                <li><a href='https://www.facebook.com/'>  <ImFacebook2 /> </a> </li>
+                <li><a href='https://twitter.com/'>  <SlSocialTwitter /> </a> </li>
+                <li><a href='https://Youtube.com/'> <AiOutlineYoutube /></a> </li>
+                <li><a href= 'https://Linkedin.com/'><FaLinkedinIn />  </a> </li>
+                <li><a href='https://instagram.com/'>  <RxInstagramLogo /> </a></li>
+                <li><a href='https://Google.com/'>  <FaGooglePlusG /> </a></li> 
+              </ul></div> 
 
           
          

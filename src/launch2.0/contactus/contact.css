@@ -1,19 +1,42 @@
 .contactpg{
     background: rgb(82, 143, 214);
     color: antiquewhite;
-    font-size:35px;
+    font-size:25px;
     display: flex;
 }
 
 
-.user, .user2{
+.user{
+    display: flex;
     padding: 3%;
     margin: 3%;
     border: 3%;
 }
-.cphone{
-    margin: 0px, -15px;
+.row1
+ {    margin: 0px -15px;
+    padding:  5px 0px;
+    box-sizing: border-box;
+    border-bottom-color: rgba(252, 250, 250, 0.42);
+    /* font-size: 1rem; */
+    font-weight: 400;
+    /* text-decoration: inherit;
+    text-transform: inherit; */
+    /* align-self: flex-end; */
+    box-sizing: border-box;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid;
+    border-radius: 4px 4px 0 0;
+    background: rgb(245, 245, 245);
+    /* height: 56px; */
+
 }
+
+ 
+/* :hover{
+    border-bottom-color: rgba(250, 244, 244, 0.87);
+    background: #ececec;
+} */
 
 
 .services_check{
@@ -24,15 +47,13 @@
     justify-content: space-between;
 
 }
-
 .list-icon{
     display: flex;
     width: 15px;
-    padding: 15px;
-    margin: 2px;
+    padding: 2%;
+    margin: 0px 0px 5px;
     list-style-type: none;
 }
 
-.map{
-    
-}
+
+
