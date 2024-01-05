@@ -3,10 +3,6 @@ import React from 'react'
 import '../../launch2.0/services/serv.css'
 
 
-
-
-
-
 const Services = () => {
   return (
     <div>

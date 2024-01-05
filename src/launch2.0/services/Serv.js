@@ -4,6 +4,9 @@ import { RiUserSettingsFill } from "react-icons/ri";
 import { GiGlobe } from "react-icons/gi";
 import { FaPersonBooth } from "react-icons/fa6";
 import { FaPersonChalkboard } from "react-icons/fa6";
+import { MdComputer } from "react-icons/md";
+import { FaComputer } from "react-icons/fa6";
+
 
 
 
@@ -11,36 +14,36 @@ const Serv = () => {
     const newObj =[
         {
             icon:<FaPersonBooth />,
-            heading:"Campus Placement",
-            content:"MyInception Tech mold the student to meet the corporate expectation and place them in reputed companies. We deliver technical and soft skill training of exceptional quality through facilitators. Our Training Program was designed to aid the students to meet today’s Global....",
-        },
+            heading:"Placement Support",
+            content:'MyInception Tech is committed to your success beyond training. Our placement support services are designed to bridge the gap between your training journey and your dream job. We understand that the transition from training to the workplace can be a critical phase, and we are here to ensure a smooth and successful transition ...'
+         },
         {
             icon:<FaPersonChalkboard />,
-            heading:"College Training",
-            content:"To be successful in today’s fast growing world, it takes not only Training or business, but positive personal projection as well. For people to be very effective in any given situation, they need to have the appropriate personal skills along their knowledge and experience ..... ",
+            heading:"Training Programs",
+            content:"MyInception Tech's meticulously crafted training programs are tailored to empower individuals like you with the knowledge and skills essential to thrive in the ever-evolving technology landscape.Whether you're aspiring to become a proficient IT professional or aiming to enhance your existing expertise, our training programs serve as your pathway to excellence, guiding you toward mastery ...",
         },
         {
             icon:<RiUserSettingsFill />,
             heading:"Staffing Solutions",
-            content:"Recruitment is the backbone of any organization. The employee contributes to the establishment of any organization. Quality policy and the assurance of constant up gradation in work and service can never be fulfilled without effective and hard working and honest employees.",
+            content: "MyInception Tech recruitment services are dedicated to bridging the gap between talented professionals and rewarding career opportunities. When you choose to partner with us for your recruitment needs, you unlock a range of benefits that are designed to enhance your organization's success ....",
         },
-        {
+           {
            
-            icon:"",
-            heading:"BPS",
-            content:"In today’s trend of Globalization, every other industry, be it big or small businesses are bound to give quality service and product to sustain themselves in this competitive world of businesses to earn value on their operational assets .....",
+            icon:<FaComputer />,
+            heading:"Call Center/BPO Services",
+            content:'MyInception Tech excels in providing exceptional Call Center/BPO services tailored to diverse industry needs. Our dedicated teams handle customer interactions with finesse and expertise, ensuring high-quality service, customer satisfaction, and business efficiency ....'
         },  
         {
-            icon:"",
-            heading:"Campus Placement",
-            content:"MyInception Tech mold the student to meet the corporate expectation and place them in reputed companies. We deliver technical and soft skill training of exceptional quality through facilitators. Our Training Program was designed to aid the students to meet today’s Global....",
+            icon:<MdComputer />,
+            heading:"Software Development",
+            content:'MyInception Tech leads the way in innovative Software Development, offering tailored solutions in Machine Learning, Mobile Applications, and Web Development ....'
         },
      
         {
            
             icon:<GiGlobe />,
-            heading:"BPS",
-            content:"In today’s trend of Globalization, every other industry, be it big or small businesses are bound to give quality service and product to sustain themselves in this competitive world of businesses to earn value on their operational assets .....",
+            heading:"Data Annotation",
+            content:"MyInception Tech specializes in providing precise data annotations vital for machine learning algorithms. Our expert teams ensure accuracy and reliability, whether it's annotating images, videos, or other forms of data. Elevate your AI models' learning capabilities with our top-notch annotations ....",
         } 
     ]
   return (  
@@ -50,7 +53,9 @@ const Serv = () => {
         <div key= {index} className='contain' >
                 <p className='icon'>{item.icon} </p>
                 <h4 className='heading'>{item.heading}</h4>
-                <p className='services_description'>{item.content}</p>    <br/>               
+                <p className='services_description'>{item.content}</p>    <br/>       
+                {/* <a href='' className='readmore'>Read More</a>         */}
+                <div class="card-bottom"><a href="">Read More <i class="fa fa-angle-double-right" aria-hidden="true"></i></a></div>
         </div>))
        }   
      
