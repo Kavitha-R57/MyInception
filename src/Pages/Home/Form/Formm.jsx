@@ -1,5 +1,6 @@
 import React from 'react'
-import '../css/form.css';
+// import '../css/form.css';
+import '../../../Pages/CSS/form.css'
 
 
 function Formm() {

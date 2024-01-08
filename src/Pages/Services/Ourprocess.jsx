@@ -1,5 +1,6 @@
 import React from 'react'
-import '../services/serv.css'
+// import '../services/serv.css'
+import '../../Pages/Services/serv.css'
 import { TfiCup } from "react-icons/tfi";
 import { PiNotepadLight } from "react-icons/pi";
 import { IoPeople } from "react-icons/io5";

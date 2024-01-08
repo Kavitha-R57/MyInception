@@ -1,14 +1,14 @@
 import React, { useState } from 'react'
-import '../contactus/contact.css'
+import '../../Pages/Contactus/contact.css';
 import { ImFacebook2 } from "react-icons/im";
-// import { SlSocialTwitter } from "react-icons/sl";
 import { RxInstagramLogo } from "react-icons/rx";
-// import { AiOutlineYoutube } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
-// import { FaGooglePlusG } from "react-icons/fa";
 import { MdOutlineMail } from "react-icons/md";
 import { MdOutlinePhoneInTalk } from "react-icons/md";
-
+// import { FaGooglePlusG } from "react-icons/fa";
+// import { SlSocialTwitter } from "react-icons/sl";
+// import { AiOutlineYoutube } from "react-icons/ai";
+// import '../contactus/contact.css'
 
 function Contact() {
 
@@ -55,10 +55,10 @@ function Contact() {
                   }
                   <input type="text" name="company" class="companyname" placeholder="Company Name *"/> 
 
-
+                    
                 </div>
             </div> <br/> <br/>
-
+            <button>Submit</button>
             
 
             {/*

@@ -1,5 +1,6 @@
 import React from 'react'
-import '../../launch2.0/services/serv.css'
+
+import '../../Pages/Services/serv.css'
 import { RiUserSettingsFill } from "react-icons/ri";
 import { GiGlobe } from "react-icons/gi";
 import { FaPersonBooth } from "react-icons/fa6";

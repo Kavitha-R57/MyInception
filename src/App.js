@@ -1,11 +1,13 @@
 import React from 'react';
-import Formm from './launch2.0/Form/Formm';
-import Marquee from './launch2.0/Marquee/Marquee';
-import Animate from './launch2.0/Animation/Animate';
-import Services from '../src/launch2.0/services/Services'
-import Serv from '../src/launch2.0/services/Serv'
-import Ourprocess from './launch2.0/services/Ourprocess';
-import Contact from '../src/launch2.0/contactus/Contact'
+import Formm from './Pages/Home/Form/Formm';
+import Marquee from './Pages/Home/Marquee/Marquee';
+import Animate from '../src/Pages/Home/Animation/Animate';
+import Services from '../src/Pages/Services/Services';
+import Serv from '../src/Pages/Services/Serv';
+import Ourprocess from '../src/Pages/Services/Ourprocess';
+import Contact from '../src/Pages/Contactus/Contact';
+
+
 
 function App() {
   return (

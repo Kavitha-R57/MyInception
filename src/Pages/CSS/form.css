@@ -6,6 +6,14 @@
     text-align: center;
     
 }
+/* form{
+    
+    width: fit-content;
+    padding: 25px;
+    position: absolute;
+    border: 1px solid black;
+    border-radius: 2%;
+} */
 
 
 .form1{
@@ -41,14 +49,7 @@ select, input{
     padding-right: 15px;  
     margin-bottom: 0%;
     }
-.form{
-    
-    width: fit-content;
-    padding: 25px;
-    position: absolute;
-    border: 1px solid black;
-    border-radius: 2%;
-}
+
 .submitbtn{
    align-items: center ;
    cursor: pointer;

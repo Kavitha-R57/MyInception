@@ -1,6 +1,7 @@
     import React from 'react'
     import Marquee from 'react-fast-marquee';
-    import '../css/marquee.css';
+    import '../../../Pages/CSS/marquee.css';     
+   
 
     function Marque() {
     return (

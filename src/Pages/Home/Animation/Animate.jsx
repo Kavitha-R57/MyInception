@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import CountUp from 'react-countup';
 import ScrollTrigger from 'react-scroll-trigger';
-import '../css/animate.css'
+import '../../../Pages/CSS/animate.css'
 
 
 

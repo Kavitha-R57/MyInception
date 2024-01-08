@@ -1,6 +1,7 @@
 import React from 'react'
+import '../../Pages/Services/serv.css'
 
-import '../../launch2.0/services/serv.css'
+
 
 
 const Services = () => {
