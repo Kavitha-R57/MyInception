@@ -9,6 +9,8 @@ import Contact from '../src/Pages/Contactus/Contact';
 
 
 
+
+
 function App() {
   return (
     <div>
@@ -17,7 +19,7 @@ function App() {
       <Animate/> 
       <Marquee/>
       <Services/>  
-      <Serv />
+      <Serv />     
       <Ourprocess/>
       <Contact/>
   
