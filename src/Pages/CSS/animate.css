@@ -1,0 +1,17 @@
+.animatestyle{
+    /* width: 100%; */
+    background-color: black;
+    margin-top: 600px;
+    margin-bottom: 300px;
+    color: bisque;
+    padding: 50px;
+}
+
+.scroll1{
+    display: flex;
+    
+}
+.first, .second, .third, .fourth{
+    padding-right: 350px;
+}
+  
