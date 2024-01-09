@@ -1,6 +1,6 @@
 import React from 'react'
 
-function CallCenter() {
+
     const myObj = [
         {
             heading: 'Industries We Serve:',},{
@@ -25,18 +25,5 @@ function CallCenter() {
             heading:'Professionalism:',
             description: 'Our trained agents exhibit professionalism and courtesy in every customer interaction, reflecting positively on your brand.',
         }]
-  return (
-    <div>
-     {/* {myObj.map((item,index) =>(
-        <div key= {index} className='' >               
-                <h4 className=''>{item.heading}</h4>
-                <p className='dec'>{item.description}</p>
-        </div>))
-      }   
-      */}
-      
-    </div>
-  )
-}
 
-export default CallCenter;
+export default myObj;
