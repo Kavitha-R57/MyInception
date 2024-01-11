@@ -2,84 +2,66 @@
     padding: 0%;
     font-family: 'Times New Roman', 'Times, serif';   
 }
-    h2{
+.form1{
     text-align: center;
+    width: 400px;
+    height:520PX;
+    margin-bottom: 20px;
+    background: transparent;
+    border-radius: 30px;
+    box-shadow: 5px 5px 10px;
+    background-color: rgb(168, 184, 216);
     
+}   
+.form1 h3{
+    margin-top: 25px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    color: rgb(17, 1, 1);
+    padding-top: 30px;
 }
-/* form{
-    
-    width: fit-content;
-    padding: 25px;
-    position: absolute;
-    border: 1px solid black;
-    border-radius: 2%;
-} */
-
-
-.form1{
-    width: fit-content;
-    border: black solid  1px;
-    border-radius: 5px;
-    padding: 5px;
-    margin-top: 5px;
-    margin-left: 950px;
-    margin-right: 25px;
-    margin-bottom: 30px;
+.form1 input{
+    outline: none;
+    border-radius: 30px;
+    border: 2px solid black;
+    width: 200px;
+    height: 40px;
+    padding-left: 40px;
+    padding-right: 20px;
+    margin-right: 20px;
+    transition: all .4s;
 }
 
-
-.submitbtn{
-    padding: 12px 27px 13px;
-    border-radius: 10px;
-    margin:10px;
+.form1 label{
+    margin-top: 25px;
+    font-weight: 6px;
+    color: rgb(17, 1, 1);
+    padding-top: 30px;
+ 
 }
-select, input{
-    border-radius: 1px;
-    size: 100px;
-}
-
-
-
-
-/* 
-.form1{
-    float: right;
-    width: 25px;
-    margin-right: 0px;  
-    padding-right: 15px;  
-    margin-bottom: 0%;
-    }
-
-.submitbtn{
-   align-items: center ;
-   cursor: pointer;
-}  */
-
-
-
-
-
-/* *{
-    box-sizing: border-box;
+.option{
+    width: 200px;
+    height: 40px;
 }
 
-.form1{
-    background-color: #ffffff;
-    border-radius: 5px;
-    padding: 17px;
+.form1 button{
+    cursor: pointer;
+    width: 300px;
+    height: 40px;
+    margin-top: 25px;
+    background-color: blue;
+    color: aliceblue;
+    font-size: 16px;   
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    transition: .4s;
 }
-.form{
-    display: block;
-    font-weight: 400;   
-    font-size: 14px;
-    line-height: 21px;
+.form1 button:hover{
+    background-color: blueviolet;
 }
-input{
-    padding: 2px 9px 2px;
-    border-radius: 5%;
-} */
 
 
 
-   
+
 

@@ -1,7 +1,7 @@
 import React from 'react'
 
-function Software() {
-    const myObj = [
+// function Software (){
+    const software = [
         {
             heading:'Machine Learning:',
             description: 'Leverage intelligent algorithms with our Machine Learning services. We create applications that adapt, enabling data-driven decisions and enhanced user experiences. Our expert team delves deep into the realms of artificial intelligence, transforming raw data into meaningful insights that drive your business forward.',
@@ -27,11 +27,18 @@ function Software() {
             heading:'Transform Your Ideas into Reality with MyInception Techs Expert Software Development Services!',
             
         }]
-  return (
-    <div>
-      
-    </div>
-  )
-}
 
-export default Software
+        // return (
+        //   <div>
+        //     {
+        //     software.map((item,index) =>(
+        //       <div>
+        //       <h4 className='headings'>{item.heading}</h4>
+        //      <p className=''>{item.description}</p>  </div> ))
+        //      }
+          
+        //      </div>)
+
+      // }
+ 
+export default software;

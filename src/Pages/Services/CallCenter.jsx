@@ -1,7 +1,7 @@
 import React from 'react'
 
 
-    const myObj = [
+    const CallCenter = [
         {
             heading: 'Industries We Serve:',},{
             heading:'Logistics',
@@ -26,4 +26,4 @@ import React from 'react'
             description: 'Our trained agents exhibit professionalism and courtesy in every customer interaction, reflecting positively on your brand.',
         }]
 
-export default myObj;
+export default CallCenter;

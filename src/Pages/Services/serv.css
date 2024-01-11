@@ -1,5 +1,7 @@
 *{
     font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    font-size: 18px;
     /* color: #444;;
     width: 100%;
     padding-right: 15px;
@@ -23,7 +25,7 @@
     padding: 25px;
     border-radius: 6%;
     border: #000 solid 1px;
-    padding: 15px;
+    padding: 15px 15px  ;
     margin-left: 5%;
     margin-bottom: 5%;
  
@@ -32,7 +34,7 @@
 }
 .services_description{
     line-height: 24px;
-    font-size: 14px;
+ 
     text-align: justify;
 }
 .heading{
@@ -48,7 +50,7 @@
 .icon{
     display: flex;
     justify-content: center;
-    margin: 2%;
+    margin: 2px;
     width: 100px;
     height: 80px;
     margin-bottom: 20px;
@@ -65,10 +67,10 @@
 
 
 p .icon{
-    position: absolute;
+    position: relative;
     top: 50px;
-    width: 59 px;
-    height: 80px;
+    width: 59px;
+    height: 180px;
     
 }
 .headingh1{
@@ -103,10 +105,9 @@ p .icon{
 
 }
 .icon2{
-    display: flex;
-    padding-left: 200px;
+    display: flex;  
     justify-content: center;
-    /* text-align: center; */
+    text-align: center;
     width: 100px;
     height: 100px;
     margin-bottom: 25px;

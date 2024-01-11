@@ -1,23 +1,26 @@
 import React from 'react'
-// import '../css/form.css';
+
 import '../../../Pages/CSS/form.css'
 
 
 function Formm() {
   return (
     <div className='form1'>
-      <div className='form'>
+      
       <h3> Enquire Now</h3>
       
-      <form>
-      
-      <label> Username:
-        <input type="text" id='uname' name="username" placeholder='Enter Your Name' /></label> <br/><br/>
-      <label> E-mail:
-        <input type="text" id='email' name="name" placeholder='Enter Your Mail id' /></label> <br/><br/>
-      <label> Phone No:
-        <input type="text" id='phnum' name="name"  placeholder='Enter Your Phone Number'/></label> <br/> <br/><br/>
-        <select>
+      <div className='form'>
+      <div>
+      <label> Username:  </label> </div><br/> 
+        <input type="text" id='uname' name="username" placeholder='Enter Your Name' /> <br/> <br/>
+
+        <div><label> E-mail: </label></div> <br/>
+        <input type="text" id='email' name="name" placeholder='Enter Your Mail id' /><br/> <br/>
+
+        <div><label> Phone No: </label></div> <br/>
+        <input type="text" id='phnum' name="name"  placeholder='Enter Your Phone Number'/> <br/><br/>
+
+        <div className='select-option'><select>
           <option value="option"> Qualification</option> <br/><br/>
           <option value="be"> BE</option>
           <option value="btech"> B.Tech</option>
@@ -31,10 +34,13 @@ function Formm() {
           <option value=""> </option>
           <option value=""> </option>
           <option value=""> </option>
-         </select><br/><br/>
+         </select><br/><br/></div>
  
-        <input className='submitbtn' type="submit" value="Submit" />
-        </form> </div>
+         <div>
+          <button className='submitbtn'> Submit </button>
+          {/* <input className='submitbtn' type="submit" value="Submit" /> */}
+         </div>
+        </div>
     </div>
   )
 }

@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import CallCenter from '../Services/CallCenter';
+
 import '../../Pages/Services/serv.css'
 import { RiUserSettingsFill } from "react-icons/ri";
 import { GiGlobe } from "react-icons/gi";
@@ -11,7 +11,8 @@ import { FaComputer } from "react-icons/fa6";
 // // import { BrowserRouter as Link, Switch} from 'react-router-dom';
 // import {Link}  from 'react-router-dom';
 // import {Switch}  from 'react-router-dom';
-import myObj from '../Services/CallCenter'
+import Software from '../Services/Software'
+// import CallCenter from '../Services/CallCenter'
 
 
 
@@ -21,9 +22,20 @@ const Serv = () => {
     const toggleModal = () =>{
         setModal(!modal)
     };
-    // if(modal){
+    
 
-    // }
+    // const [open, setOpen] = useState(false);
+    //   const handleOpen = () =>{
+    //     setOpen(true)
+    //   };
+
+    //   const handleClose = (e) => {
+    //     const currentClass = e.target.className;
+    //     if(currentClass==='modal')
+    //     return;
+    //     setOpen(false)
+    //   };
+
 
    
     const newObj =[
@@ -65,59 +77,76 @@ const Serv = () => {
     ]
   return (  
 
-    <div className='container'> {
+    <div className='container'> 
+    {
         newObj.map((item,index) =>(
         <div key= {index} className='contain' >
              <p className='icon'>{item.icon} </p>
              <h4 className='heading'>{item.heading}</h4>
              <p className='services_description'>{item.content}</p>    <br/>  
+             {/*  */}
+             {/* <button onClick={()=> setbuttonpopup(true)} className='btn-modal'> Read More   </button> */}
+
+             <button onClick={toggleModal} className='btn-modal'> Read More   </button>
+             {/* <div className='modal-content'>
+                <button onClick={toggleModal} className='close-modal'> close   </button></div> */}
 
 
-                              
-                <button onClick={toggleModal} className='btn-modal'> Read More   </button>
+
+
+
+             {/* <div className='modal'>
+                <button className='btn' onClick={handleOpen}> read more</button>
+             </div>  
+             < Software/>
+             < DataAnn/>
+             <div className='modal'>
+                <button className={ open ? 'modal-bg open' :'modal-bg ' } onClick={handleClose}> </button>
+             </div>  */}
+
+
+
+
+             </div>))} 
+     
+              
+                
                 
                 {modal && (
                     <div className='modal'>
                         <div onClick={toggleModal} className='overlay'> 
                         <div className='modal-contant'>
                     {
-                        myObj.map((item, index)=>
+                        Software.map((item, index)=>
                         <div key={index}> 
                         <h1>{item.heading}</h1>
                         <p>{item.description}</p>
-                        </div>
-                        
+                        </div> 
                         )
-                    }
-                   
-
-       
-                        
-
-
-                            
-                        </div> </div>
-                    </div>
+                    }</div> </div></div>
                 )}
                
 
-               <div>
-                <div className='modal-content'>
-                <button onClick={toggleModal} className='close-modal'> close   </button></div></div>
+
+
+
+
+
+
+               {/* <div>
+                </div></div>
 
               
-                {/* <div class="card-bottom" ><a href="">Read More 
+                 <div class="card-bottom" ><a href="">Read More 
                         <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
-                </div>  */}
-                   {/* <a href='' className='readmore'>Read More</a>         */}
-                {/* <Link to={`/${item.heading}`} className='readmore' > Read More </Link>
-                <Link to='Training'> Read More</Link> */}
+                </div>  
+                   <a href='' className='readmore'>Read More</a>         
+                <Link to={`/${item.heading}`} className='readmore' > Read More </Link>
+                <Link to='Training'> Read More</Link>  */}
                 
-        </div>))} 
-     
-     
+
+
     </div>
-  )
-}
+    )}
 
 export default Serv;
